@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./components/**/*.tsx"],
-  content: [],
   theme: {
-    extend: {},
+    colors: {
+      brand: "#2b4650",
+    },
+  },
+  purge: {
+    mode: "all",
+    content: ["./src/components/**/**/*.{ts, tsx}"],
   },
   plugins: [],
 };

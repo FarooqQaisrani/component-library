@@ -1,5 +1,6 @@
-button {
+.button {
   font-size: 16px;
   padding: 1rem 2rem;
-  
+  color: white;
+  @apply bg-brand rounded-full border-0 cursor-pointer;
 }
